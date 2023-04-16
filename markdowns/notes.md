@@ -58,10 +58,15 @@ Fast Fourier Transform Algorithm
 
 Uses in Physics:
 
-- EM waves
+- EM waves (Optics)
   - wave packets to fundamental wave constitutes
+  - Linear combinations of plane waves
 - Quantum Mechanical Waves
-  - spacial domain to momentum domain
+  - spacial domain to momentum domain (by FT)
+- Radio Astronomy
+  - diffraction limits of telescopes are governed by the `Similarity Theorem of FT`
+- Boundary Value Problems
+  - Solutions to PDE's can be obtained with FT
 
 Removing noise & Techniques
 
@@ -78,6 +83,7 @@ Removing noise & Techniques
 
 # DFT `Landau`
 
+- notorious computation time `Brigham` (DFT -> FFT better route)
 - truncate the integral to the length of a period
 - reduce the infinite sum to a finite sum using trapezoid numerical integration
 
